@@ -1,0 +1,53 @@
+<HTML>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+  body{
+    background-color: Aquamarine;
+  }
+  span{
+    color: rgb(256,0,255);
+    font-weight:bold;
+  }
+  p{
+    margin-left: 310px;
+    font-weight: bold;
+  }
+  .input{
+    margin-left: 310px;
+    border-radius: 5px;
+    border-width: 2px;
+  }
+  #textbox{
+    width: 800px;
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 310px
+  }
+  #namebox{
+    height: 30px;
+    width: 200px;
+  }
+  #div{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    height: 450px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: scroll;
+    }
+  </style>
+  <body>
+    <p>Enter name:</p>
+    <input class = "input" id = "namebox" type = box value = "Anonymous" placeholder = "Enter name.">
+    <br>
+    <div id = "div">
+    </div>
+    <br>
+    <input class = "input" id = "textbox" type = box placeholder = "Enter text.">
+    <script src = "./chatapp.js"></script>
+  </body>
+</HTML>
